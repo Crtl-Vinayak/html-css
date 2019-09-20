@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>tabel 1</title>
+<style>
+td {
+text-align:right;
+width: 20px;
+height: 20px;
+}
+
+td#print_report_left {
+text-align:left;
+}
+
+td#alphabet_center {
+text-align:center;
+}
+
+td#barbazfoo {
+text-align:left;
+}
+
+td#grandtotal {
+text-align:left;
+}
+
+</style>
+</head>
+<body>
+	<div>
+		<table border="1" align="center">
+			<tr>
+				<td colspan="10" id="print_report_left"><b>Print Report</b></td>
+			</tr>
+			<tr>
+				<td><b>SI.No</b></td>
+				<td><b>Column1</b></td>
+				<td><b>Column2</b></td>
+				<td><b>100</b></td>
+				<td><b>500</b></td>
+				<td><b>200</b></td>
+				<td><b>600</b></td>
+				<td><b>300</b></td>
+				<td><b>400</b></td>
+				<td><b>Total</b></td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td rowspan="3" id="alphabet_center">A</td>
+				<td id="barbazfoo">bar</td>
+				<td>0</td>
+				<td>0</td>
+				<td>1</td>
+				<td>0</td>
+				<td>1</td>
+				<td>0</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td id="barbazfoo">baz</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>1</td>
+				<td>0</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td id="barbazfoo">foo</td>
+				<td>3</td>
+				<td>0</td>
+				<td>1</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>4</td>
+			</tr>
+			<tr>
+				<td colspan="3">A Total</td>
+				<td>3</td>
+				<td>0</td>
+				<td>2</td>
+				<td>0</td>
+				<td>2</td>
+				<td>0</td>
+				<td>7</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td rowspan="3" id="alphabet_center">B</td>
+				<td id="barbazfoo">baz</td>
+				<td>0</td>
+				<td>0</td>
+				<td>1</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td id="barbazfoo">cad</td>
+				<td>1</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>1</td>
+				<td>1</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td id="barbazfoo">qud</td>
+				<td>1</td>
+				<td>0</td>
+				<td>1</td>
+				<td>0</td>
+				<td>1</td>
+				<td>2</td>
+				<td>5</td>
+			</tr>
+			<tr>
+				<td colspan="3">B Total</td>
+				<td>2</td>
+				<td>0</td>
+				<td>2</td>
+				<td>0</td>
+				<td>2</td>
+				<td>3</td>
+				<td>9</td>
+			</tr>
+			<tr>
+				<td colspan="3" id="grandtotal">Grand Total:</td>
+				<td>5</td>
+				<td>0</td>
+				<td>4</td>
+				<td>0</td>
+				<td>4</td>
+				<td>3</td>
+				<td>16</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
