@@ -1,0 +1,56 @@
+body {
+	background-color: yellow;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 960px;
+	padding: 20px;
+}
+header {
+	background-color: red;
+	margin-bottom: 30px;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+section {
+	background-color: green;
+	border: 1px black solid;
+}
+footer {
+	padding: 20px;
+	padding-left: 0px;
+}
+#headerlinks {
+	background-color: red;
+}
+#ulheaderlinks {
+	background-color: red;
+	margin: 0px;
+	padding: 10px;
+	font-size: 30px;
+}
+#img_elektriciteit {
+	width: 960px;
+}
+#navlinks {
+	display: inline;
+}
+#footerlinks {
+	bottom: 0;
+	position: absolute;
+	background-color: black;
+	top: 850px;
+	width: 960px;
+}
+#copyright {
+	margin: 0px;
+	margin-top: 10px;
+	vertical-align: sub;
+	text-align: center;
+	color: white;
+	position: relative;   
+	top: 150px;
+}
