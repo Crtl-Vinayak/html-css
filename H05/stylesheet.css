@@ -1,0 +1,49 @@
+* {
+	box-sizing:border-box;
+}
+body {
+	background-color: #FCEBEB;
+	/*grid-template-columns: 1fr 4fr;*/
+}
+#nav {
+	margin: 0px;
+}
+.flex_list {
+	float: left;
+	font-size: 20px;
+	text-align: left;
+	padding-right: 10px;
+	position: relative;
+	right: 40px;
+}	
+#images_sidebyside {
+	display: flex;
+}
+.section_one {
+	width: 500px;
+	height: 331px;
+	margin-right: 16px;
+}
+#apple {
+	height: 339px;
+}
+.section_two {
+	width: 500px;
+	height: 331px;
+}
+.nobullets {
+	list-style: none;
+	margin: 0px;
+}
+#three_article_rows {
+	display: flex;
+}
+#article_one {
+	width: 33%
+}
+#article_two {
+	width: 34%
+}
+#article_three {
+	width: 33%
+}
