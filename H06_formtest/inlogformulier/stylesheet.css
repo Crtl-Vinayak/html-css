@@ -1,0 +1,47 @@
+body {
+	/*
+	background-color: #2641ed;
+	*/
+}
+label {
+	color: #0B3A66;
+}
+textarea {
+	resize: none;
+	height: 15px;
+	vertical-align: middle;
+	position: absolute;
+	left: 120px;
+	border-color: #1173cf;
+}
+#rightside_checkbox {
+	display: flex;
+}
+.space {
+	margin-bottom: 15px;
+}
+.geslacht {
+	height: 18px;
+	color: #0B3A66;
+}
+select#kleurogen {
+	width: 163px;
+}
+input#geboortedatum {
+	width: 158px;
+}
+textarea#omschrijving {
+	width: 200px;
+	height: 100px;
+}
+#checkbox {
+	background-color: red;
+}
+#deel2 {
+	margin-left: 50px;
+}
+#buttons {
+	position: relative;
+	top: 100px;
+	left: 418px;
+}

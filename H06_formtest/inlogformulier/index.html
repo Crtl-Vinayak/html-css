@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Burton Education Inlog Formulier</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+</head>
+<body>
+	<header>
+		<h2>Voorbeeldformulier</h2>
+	</header>
+	<form action="http://www.savatarian.com/html5/form.php" method="post">
+		<div id="rightside_checkbox">
+			<section id="deel1">
+				<div id="names">
+					<div class="space">
+						<label for="voornaam">Voornaam</label>
+						<textarea name="voornaam" id="voornaam"></textarea>
+					</div>
+					<div class="space">
+						<label for="tussenvoegsel">Tussenvoegsel</label>
+						<textarea name="tussenvoegsel" id="tussenvoegsel"></textarea>
+					</div>
+					<div class="space">
+						<label for="achternaam">Achternaam</label>
+						<textarea name="achternaam" id="achternaam"></textarea>
+					</div>
+				</div>
+				<div id="other_specifications">
+					<div id="geslacht" class="space">
+						<label for="geslacht">Geslacht</label>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="radio" name="man" value="man" id="geslacht" >&nbsp;Man
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="radio" name="vrouw" value="vrouw" id="geslacht">&nbsp;Vrouw
+					</div>
+					<div id="kleur-ogen" class="space">
+						<label for="kleurogen">Kleur ogen</label>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<select name="kleur-ogen" id="kleurogen">
+						<!--
+						https://nl.wikipedia.org/wiki/Oogkleur
+						-->
+							<option>Bruin</option>
+							<option>Hazelnoot</option>
+							<option>Amber en geel</option>
+							<option>Groen</option>
+							<option>Blauw</option>
+						</select>
+					</div>
+					<div id="geboortedatum" class="space">
+						<label for="geboortedatum">Geboortedatum</label>
+						&nbsp;
+						<input type="date" name="geboortedatum" id="geboortedatum"/>
+					</div>
+					<div id="omschrijving" class="space">
+						<label for="omschrijving">Omschrijving</label>
+						<textarea id="omschrijving"></textarea>
+					</div>
+				</div>
+			</section>
+			<section id="deel2">
+				<div id="checkbox_div">
+					<label>Lekker eten
+						<input type="checkbox" name="sperciebonen" value="sperciebonen" class="checkbox">
+						<span class="checkbox">Sperciebonen</span>
+						<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="checkbox" name="aardappelen" value="aardappelen" class="checkbox">
+						<span class="checkbox">Aardappelen</span>
+						<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="checkbox" name="hamburger" value="hamburger" class="checkbox">
+						<span class="checkbox">Hamburger</span>
+					</label>
+				</div>
+			</section>
+		</div>
+		<section id="section_but">
+			<div id="buttons">
+				<input type="button" name="Annuleer" value="Annuleer"/>
+				<input type="submit" name="OK" value="OK"/>
+			</div>
+		</section>
+	</form>
+</body>
+</html>
