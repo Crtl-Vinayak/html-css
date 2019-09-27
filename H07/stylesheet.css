@@ -1,0 +1,231 @@
+/*
+important colors:
+	#CAECDE
+	#F9F1EB
+	#D27666
+*/
+
+* {
+	/*border: 1px dotted black;*/
+}
+body {
+	margin: 0;
+	background-color: #F9F1EB;
+}
+
+/*
+bottom css code is for devices with high resolution.
+*/
+@media all and (min-width:1281px) {
+	body {
+		display: grid;
+		grid-template-columns: 5fr 6fr 6fr;
+		grid-template-rows: 150px 40px auto;
+	}
+	div#logo {
+		background-color: #CAECDE;
+		grid-column: 1/4;
+		display: flex;
+		justify-content: center;
+		margin-left: 2px;
+		margin-top: 2px;
+		margin-right: 2px;
+	}
+	div#nav {
+		grid-column: 1/4;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	div ul#ul_navbar {
+		padding-left: 0px;
+		list-style: none;
+		margin: 0px;
+		background-color: gray;
+		height: 40px;
+	}
+	div ul li.navbar-individual-element {
+		display: inline;
+		position: relative;
+		top: 6px;
+		padding-left: 30px;
+		font-size: 20px;
+	}
+	div ul li a.instruments_links {
+		text-decoration: none;
+		color: white;
+		vertical-align: middle;
+	}
+	.instruments_images {
+		margin-top: 10px;
+	}
+	.text {
+		grid-column: 1/2;
+		color: #D27666;
+		padding-top: 10px;
+		padding-left: 20px;
+		font-weight: bold;
+		font-family: verdana;
+		font-size: 20px;
+		text-align: left;
+	}
+	p {
+		font-weight: normal;
+		font-size: 16px;
+		color: gray;
+	}
+	.instruments_images{
+		padding-right: 10px;
+		width: 95%;
+		height: auto;
+	}
+	#drums {
+		grid-column: 2/3;
+	}
+	#gitaar {
+		grid-column: 3/4;
+	}
+	#saxofoon {
+		grid-column: 2/3;
+	}
+	#trompet {
+		grid-column: 3/4;
+	}
+}
+
+/*
+bottom css code is for tablet/ipad devices.
+*/
+@media all and (min-width:768px) and (max-width:1280px){
+		body {
+		display: grid;
+		grid-template-columns: 5fr 1fr 6fr;
+		grid-template-rows: 150px 40px auto;
+	}
+	div#logo {
+		background-color: #CAECDE;
+		grid-column: 1/4;
+		display: flex;
+		justify-content: center;
+		margin-left: 2px;
+		margin-top: 2px;
+		margin-right: 2px;
+	}
+	div#nav {
+		grid-column: 1/4;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	div ul#ul_navbar {
+		padding-left: 0px;
+		list-style: none;
+		margin: 0px;
+		background-color: gray;
+		height: 40px;
+	}
+	div ul li.navbar-individual-element {
+		display: inline;
+		position: relative;
+		top: 6px;
+		padding-left: 30px;
+		font-size: 20px;
+	}
+	div ul li a.instruments_links {
+		text-decoration: none;
+		color: white;
+		vertical-align: middle;
+	}
+	.instruments_images {
+		margin-top: 10px;
+	}
+	.text {
+		grid-column: 1/2;
+		color: #D27666;
+		padding-top: 10px;
+		padding-left: 20px;
+		font-weight: bold;
+		font-family: verdana;
+		font-size: 20px;
+		text-align: left;
+	}
+	p {
+		font-weight: normal;
+		font-size: 16px;
+		color: gray;
+	}
+	.instruments_images{
+		padding-right: 10px;
+		width: 95%;
+		height: auto;
+	}
+	#drums {
+		grid-column: 2/4;
+	}
+	#gitaar {
+		grid-column: 2/4;
+	}
+	#saxofoon {
+		grid-column: 2/4;
+	}
+	#trompet {
+		grid-column: 2/4;
+	}
+}
+
+/*
+bottom css code is for mobile devices.
+*/
+@media all and (min-width:0px) and (max-width:767px) {
+	body {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 150px 150px auto;
+	}
+	div#logo {
+		background-color: #CAECDE;
+		grid-column: 1/3;
+		display: flex;
+		justify-content: center;
+		margin-left: 2px;
+		margin-top: 2px;
+		margin-right: 2px;
+	}
+	div#nav {
+		grid-column: 1/3;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	div ul#ul_navbar {
+		padding-left: 0px;
+		list-style: none;
+		margin: 0px;
+	}
+	div ul li.navbar-individual-element {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 20px;
+		background-color: gray;
+		border-bottom: 1px solid white;
+	}
+	div ul li a.instruments_links {
+		text-decoration: none;
+		color: white;
+	}
+	.instruments_images {
+		margin-top: 10px;
+	}
+	.text {
+		grid-column: 1/3;
+		color: #D27666;
+		padding-top: 10px;
+		padding-left: 20px;
+		font-weight: bold;
+		font-family: verdana;
+		font-size: 20px;
+		text-align: left;
+	}
+	p {
+		font-weight: normal;
+		font-size: 16px;
+		color: gray;
+	}
+}
