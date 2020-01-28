@@ -212,6 +212,8 @@ bottom css code is for mobile devices.
 	}
 	.instruments_images {
 		margin-top: 10px;
+		width: calc(100% - 5px);
+		height: calc(100% - 5px);
 	}
 	.text {
 		grid-column: 1/3;
